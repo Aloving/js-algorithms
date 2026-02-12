@@ -1,0 +1,18 @@
+---
+description: Опора на репозиторий trekhleb/javascript-algorithms при создании алгоритмов
+globs: src/**/*.js
+alwaysApply: true
+---
+
+# Референс: JavaScript Algorithms
+
+**Основной репозиторий для справки:** [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+
+При создании новых файлов с алгоритмами и структурами данных:
+
+1. **Ориентируйся на структуру и стиль этого репозитория:** каждая тема в своей папке (`src/algorithms/<категория>/<название>/` или `src/data-structures/<название>/`), внутри — реализация (`.js`), при необходимости `README.md` и тесты в `__test__/`.
+2. **Используй его как образец:** именование, разбиение на функции, комментарии и ссылки на теорию можно брать оттуда.
+3. **Не копируй код целиком без необходимости** — мы реализуем задачи поочерёдно для обучения; если показываешь решение, делай его в стиле репо (чистый JS, читаемо, с пояснениями).
+4. **Соответствие разделам:** алгоритмы класть в `src/algorithms/` по категориям (sorting, search, sets, uncategorized, string, graph, math и т.д.), структуры данных — в `src/data-structures/`.
+
+Структура папок проекта повторяет trekhleb/javascript-algorithms (algorithms, data-structures, playground, utils).

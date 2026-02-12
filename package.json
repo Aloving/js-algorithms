@@ -1,0 +1,20 @@
+{
+  "name": "js-algorithms",
+  "version": "0.1.0",
+  "description": "Алгоритмы и структуры данных на JavaScript — практика по мотивам trekhleb/javascript-algorithms",
+  "scripts": {
+    "lint": "eslint ./src/**",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:name": "jest --testPathPattern"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
