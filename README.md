@@ -4,11 +4,14 @@
 
 Задачи реализуем **поочерёдно**.
 
+**Фронтенд (визуализация):** приложение в папке `frontend/` — Vite + React + TypeScript + D3. Запуск: `cd frontend && npm i && npm run dev`.
+
 ---
 
 ## Структура репозитория
 
 ```
+frontend/           # Vite + React + D3 + TypeScript (визуализация алгоритмов)
 src/
 ├── algorithms/     # алгоритмы по темам
 │   ├── cryptography
